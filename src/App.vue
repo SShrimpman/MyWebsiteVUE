@@ -1,8 +1,12 @@
 <template>
-<Base/>
+<Header/>
+<Body/>
+<Footer/>
 </template>
 
 
 <script setup>
-import Base from '../src/components/Base.vue'
+import Header from './components/Header.vue'
+import Body from './components/Body.vue'
+import Footer from './components/Footer.vue'
 </script>
